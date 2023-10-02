@@ -31,6 +31,6 @@ async function handleRequest(request) {
 	`;
 
 	return new Response(htmlContent, {
-    headers: { 'Content-Type': 'text/html' },
+    headers: { 'Content-Type': 'text/json' },
   });
 }
